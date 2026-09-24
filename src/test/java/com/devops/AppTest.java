@@ -1,11 +1,17 @@
 package com.devops;
+
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class AppTest {
+
     @Test
     public void testMessage() {
-        org.junit.jupiter.api.Assertions.assertEquals(
+        App app = new App();
+        assertEquals(
             "Hello from DevOps CI/CD Pipeline!",
-            App.getMessage()
+            app.getMessage()
         );
     }
 }
