@@ -11,4 +11,5 @@ pipeline {
             sh 'docker build -t devops-cicd-java-app .'
         }
     }
+    }
 }
