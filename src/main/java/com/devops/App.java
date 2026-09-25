@@ -11,7 +11,7 @@ public class App {
 
     @GetMapping("/")
     public String getMessage() {
-        return "Hello from DevOps CI/CD Pipeline!";
+        return "Hello from DevOps CI/CD Pipeline - Automated Deployment!";
     }
 
     public static void main(String[] args) {
